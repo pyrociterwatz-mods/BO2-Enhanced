@@ -1,0 +1,40 @@
+Blood Omen 2 Enhanced - changes
+===============================
+
+1.0.2
+- The public launcher no longer contains the crash logger (it ran the game under a debugger, which anti-virus heuristics
+  flagged). "Open log folder" in the launch window shows the sound engine's logs. Testers get a separate build with the logger.
+
+1.0.1
+- Setup no longer carries the launcher, the DLLs and the patch data inside itself: they come as separate files in the
+  "files" folder (extract the whole zip before running setup). Anti-virus heuristics flagged the all-in-one setup.
+- Setup, launcher and bo2skipui.dll carry product name, description and version details.
+
+1.0
+- First public release, renamed from "Blood Omen 2 Cutscene Skip + Sound Fix" (test builds 0.2 - 0.9.13).
+- Log folder is now Documents\Blood Omen 2 Enhanced logs.
+- Trainer options: choosing Trainer opens a list where god mode, walk on water and each debug display can be turned
+  on or off.
+- The launch window and the Trainer list scale with Windows display scaling (text was cut off above 100%).
+- GOG version supported (its game files are identical to Steam's); setup finds GOG installs, and "bo2.exe -setup"
+  (GOG Galaxy's Settings entry) opens the game's own settings window.
+
+Test builds, newest first
+- 0.9.13  The end of the Eternal Prison and the end of the Device stay black into the next load screen after a skip.
+          The autosave is labelled in lower case, like the game's own menu text.
+- 0.9.12  The end of the Canyons stays black into the Eternal Prison load screen after a skip.
+- 0.9.11  The autosave is named "autosave" in the load and save lists. After skipping the last scene of a chapter the
+          screen stays black into the next chapter's load screen.
+- 0.9.10  Fix: crash when a level change unloaded the enemy shown in the HUD's health bar (after the Upper City boss).
+- 0.9.9   Autosaves happen at the checkpoint itself.
+- 0.9.8   The autosave is the first entry in the load and save lists.
+- 0.9.7   Autosave at every checkpoint.
+- 0.9.6   A turning ring (the game's own HUD ring) shows during skips longer than 3 seconds.
+- 0.9.5   Movies cannot be stopped by accident in their first 2 seconds.
+- 0.9.4   Tried to play the ending movie with movies off; the game's ending does not use that path, so it has no effect.
+- 0.9.3   Fix: crash when a voice line started while all 48 sound channels were busy (made likely by skips).
+- 0.9.1   Vanilla mode keeps all the fixes and the sound engine; only the cutscene skip is left out.
+- 0.9.0   New sound engine (FMOD 3 replaced by miniaudio).
+- 0.8.x   Chapter-change scenes, multi-part and scripted scenes, the Industrial Quarter boss, the Seer scene, the Wharves
+          door, load-aware skipping, sound fading with the picture, mouse kept in the window, crash logs.
+- 0.2-0.7 Hold-to-skip with button icons, volume slider fixes, the double sound mixer and stream-read crash fixes.

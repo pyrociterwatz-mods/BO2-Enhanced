@@ -1,0 +1,3 @@
+LIBRARY dinput.dll
+EXPORTS
+    DirectInputCreateEx = proxy_DirectInputCreateEx@20

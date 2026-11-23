@@ -1,0 +1,11 @@
+# Build output and anything taken from the game: never commit these
+dist/
+build/
+sound/build/
+ui-dll/build/
+*.exe
+*.big
+*.erg
+*.dll
+*.dmp
+*.o
