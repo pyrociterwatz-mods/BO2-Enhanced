@@ -38,7 +38,7 @@ The setup program and its documents end up in `dist\release`. Build output and g
 
 ## Credits
 
-Testing: Prumpt, ACrispyTaco and EODTex.
+Testing: Prumpt and EODTex.
 
 ## License
 

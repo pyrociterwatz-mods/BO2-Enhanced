@@ -131,7 +131,7 @@ Credits and license
 Blood Omen 2 Enhanced by pyrociterwatz. Released under the MIT License (LICENSE.txt). The license covers the mod's own code
 and data, not Blood Omen 2 or any of its files, which belong to their owners; the package contains only the bytes it
 changes in your own copy of the game.
-Testing: Prumpt, ACrispyTaco and EODTex. Thank you!
+Testing: Prumpt and EODTex. Thank you!
 Sound engine: miniaudio by David Reid (https://miniaud.io), public domain or MIT No Attribution (THIRD-PARTY-NOTICES.txt).
 Requires Re-vamped by ClassicRebirth, which is distributed separately under its own license.
 
